@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Merishaw School Portal</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="login-box">
+
+<div class="logo">
+
+<img src="schoolwebsite/photo/logo.png">
+
+<h2>MERISHAW SCHOOL</h2>
+
+<p>School Management Portal</p>
+
+</div>
+
+<!-- LOGIN FORM -->
+
+<form id="loginForm">
+
+<h3>Login</h3>
+
+<div class="inputBox">
+
+<i class="fa fa-user"></i>
+
+<input
+type="text"
+id="username"
+placeholder="Username" required>
+
+</div>
+
+<div class="inputBox">
+
+<i class="fa fa-lock"></i>
+
+<input
+type="password"
+id="password"
+placeholder="Password" required>
+
+<i class="fa fa-eye"
+id="togglePassword"></i>
+
+</div>
+
+<div class="options">
+
+<label>
+
+<input type="checkbox">
+
+Remember Me
+
+</label>
+
+<a href="#" id="forgotLink">
+
+Forgot Password?
+
+</a>
+
+</div>
+
+<button
+type="submit"
+class="btn">
+
+Login
+
+</button>
+
+</form>
+
+<!-- FORGOT PASSWORD -->
+
+<form id="forgotForm">
+
+<h3>Reset Password</h3>
+
+<p>
+
+Enter your registered email.
+
+</p>
+
+<div class="inputBox">
+
+<i class="fa fa-envelope"></i>
+
+<input
+type="email"
+id="email"
+placeholder="Email Address">
+
+</div>
+
+<button
+type="submit"
+class="btn">
+
+Send Reset Link
+
+</button>
+
+<br><br>
+
+<a href="#" id="backLogin">
+
+← Back to Login
+
+</a>
+
+</form>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html
